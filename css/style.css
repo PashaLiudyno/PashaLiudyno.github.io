@@ -1,0 +1,1011 @@
+@charset "UTF-8";
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/style\.sass}line{font-family:\000032}}
+* {
+  font-family: Roboto, sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\000031}}
+.header {
+  position: relative;
+  height: 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\000035}}
+nav {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: #212121;
+  z-index: 2; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\0000311}}
+.hamburger {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\0000314}}
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\0000321}}
+  .menu_link {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\0000326}}
+  .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\0000329}}
+    .menu_item:last-child {
+      border-right: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\0000334}}
+.subheader {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  height: 84px;
+  background-color: rgba(0, 0, 0, 0.6); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\0000341}}
+  .subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\0000346}}
+  .subheader_official {
+    margin-top: 6px;
+    opacity: 0.5;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\0000353}}
+  .subheader_call {
+    text-align: right;
+    margin-top: 19px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\0000360}}
+  .subheader_phone {
+    display: block;
+    margin-top: 8px;
+    text-align: right;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\0000371}}
+  .subheader_btn {
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    -webkit-box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+            box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#1eacc7), to(#4ce2ff));
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_mixins\.sass}line{font-family:\000032}}
+    .subheader_btn:hover {
+      background-image: none;
+      background-color: #1eacc7; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\0000386}}
+.promo {
+  min-height: 800px;
+  background: url(../img/uber_bg.png) center center/cover no-repeat;
+  padding: 150px 0 135px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\0000391}}
+  .promo_header {
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 60px;
+    margin: 0;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003100}}
+  .promo_subheader {
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 22px;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003110}}
+  .promo_descr {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 23px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003118}}
+  .promo_btn {
+    display: block;
+    margin: 118px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    -webkit-box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+            box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#1eacc7), to(#4ce2ff));
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    color: #ffffff;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_mixins\.sass}line{font-family:\000032}}
+    .promo_btn:hover {
+      background-image: none;
+      background-color: #1eacc7; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003134}}
+.cause {
+  padding: 71px 0 65px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003136}}
+  .cause_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 35px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003141}}
+  .cause_four {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003150}}
+  .cause_text {
+    width: 343px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003152}}
+  .cause_one {
+    line-height: 21px;
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003157}}
+  .cause_two {
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003164}}
+.label {
+  margin: 0 auto;
+  height: 24px;
+  width: 112px;
+  padding: 4px 12px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003176}}
+.eight {
+  margin-bottom: 0;
+  margin-top: 38px;
+  color: #222222;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003185}}
+.subtitle {
+  margin-top: 19px;
+  color: #222222;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003195}}
+.mobile {
+  min-height: 864px;
+  padding: 48px 0 79px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003198}}
+  .mobile .row {
+    margin-top: 32px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003200}}
+  .mobile_item {
+    position: relative;
+    width: 320px;
+    height: 280px;
+    margin: 0 auto;
+    margin-bottom: 19px;
+    padding-top: 92px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003207}}
+    .mobile_item_1 {
+      background: url("../img/Карточка 1.png") center center/cover no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003209}}
+    .mobile_item_2 {
+      background: url("../img/Карточка 2.png") center center/cover no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003211}}
+    .mobile_item_3 {
+      background: url("../img/Карточка 3.png") center center/cover no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003213}}
+    .mobile_item_4 {
+      background: url("../img/Карточка 4.png") center center/cover no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003215}}
+    .mobile_item_5 {
+      background: url("../img/Карточка 5.png") center center/cover no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003217}}
+    .mobile_item_6 {
+      background: url("../img/Карточка 6.png") center center/cover no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003219}}
+    .mobile_item_subtitle {
+      color: #ffffff;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 31px;
+      text-transform: uppercase;
+      text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003226}}
+    .mobile_item_plus {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      position: absolute;
+      bottom: 35px;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
+      width: 26px;
+      height: 26px;
+      background-color: #000000;
+      margin: 0 auto;
+      border-radius: 100%;
+      cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003240}}
+      .mobile_item_plus:before {
+        content: "";
+        display: block;
+        width: 14px;
+        height: 2px;
+        background-color: #1eacc7;
+        -webkit-transition: 0.3s all;
+        transition: 0.3s all; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003247}}
+      .mobile_item_plus:after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+                transform: translateX(-50%);
+        display: block;
+        height: 14px;
+        width: 2px;
+        background-color: #1eacc7;
+        -webkit-transition: 0.3s all;
+        transition: 0.3s all; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003258}}
+      .mobile_item_plus:hover:before, .mobile_item_plus:hover:after {
+        background-color: #ff5656; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003262}}
+.car {
+  height: 898px;
+  padding: 59px 0 137.5px 0;
+  background: url("../img/Темная подложка.png") center center/cover no-repeat;
+  background-position: 0 0;
+  background-size: 100vw 56%;
+  background-repeat: no-repeat; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003269}}
+.label_two {
+  margin: 0 auto;
+  height: 24px;
+  width: 112px;
+  padding: 4px 12px;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003280}}
+.choice {
+  color: #FFF;
+  text-align: center;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 27px 0 1px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003288}}
+.subtitle_text {
+  color: #FFF;
+  text-align: center;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  margin-top: 1px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003296}}
+.car_two {
+  margin-top: 54px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003301}}
+.subtitle_text_two {
+  position: relative;
+  color: #222;
+  text-align: center;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003309}}
+  .subtitle_text_two_white {
+    color: #FFF;
+    font-weight: 400;
+    z-index: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003313}}
+.require {
+  padding: 68px 0 84px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003315}}
+  .require_block {
+    margin: 33px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003317}}
+    .require_block_nmb {
+      margin-bottom: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003319}}
+  .require_title {
+    color: #1CA8C3;
+    font-size: 22px;
+    font-weight: 400; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003323}}
+  .require_list {
+    list-style-type: none;
+    padding-left: 50px;
+    margin-top: 22px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003327}}
+    .require_list li {
+      position: relative;
+      font-size: 17px;
+      font-weight: 300;
+      line-height: 24px;
+      margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003333}}
+      .require_list li:before {
+        content: "";
+        display: block;
+        position: absolute;
+        left: -32px;
+        top: 3px;
+        width: 21px;
+        height: 20px;
+        background: url("../icons/check_blue 6.png") center center/cover no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003342}}
+  .require_block_two {
+    margin: 33px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003344}}
+  .require_nmb_two {
+    margin-bottom: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003346}}
+  .require_title_two {
+    color: #FF5656;
+    font-size: 22px;
+    font-weight: 400; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003350}}
+  .require_list_two {
+    list-style-type: none;
+    padding-left: 50px;
+    margin-top: 22px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003354}}
+    .require_list_two li {
+      position: relative;
+      font-size: 17px;
+      font-weight: 300;
+      line-height: 24px;
+      margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003360}}
+      .require_list_two li:before {
+        content: "";
+        display: block;
+        position: absolute;
+        left: -32px;
+        top: 3px;
+        width: 21px;
+        height: 20px;
+        background: url("../icons/check_red 3.png") center center/cover no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003369}}
+  .require_descr {
+    color: #1CA8C3;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003374}}
+.world {
+  position: relative;
+  min-height: 720px;
+  padding: 49px 0;
+  background: url("../img/world_bg.png") center center/cover no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003379}}
+  .world_link {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    bottom: 49px;
+    ext-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 68px;
+    text-transform: uppercase;
+    color: #1fbad6;
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003391}}
+    .world_link:hover {
+      text-decoration: none;
+      color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003395}}
+.label_four {
+  position: relative;
+  margin: 0 auto;
+  height: 24px;
+  width: 75px;
+  padding: 5px 12px;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003408}}
+.eight_two {
+  margin-bottom: 0;
+  margin-top: 26px;
+  color: #fff;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  font-style: normal;
+  line-height: 48px;
+  z-index: 2; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003419}}
+footer {
+  padding: 14px 23px 39px 23px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003422}}
+  footer a:hover {
+    text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003425}}
+.footer_divider {
+  width: 229px;
+  height: 4px;
+  background-color: #1fbad6;
+  margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003430}}
+.footer_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-top: 32px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003435}}
+.footer_wrapper > div {
+  width: 33%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003437}}
+  .footer_wrapper > div:nth-childe(3) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003440}}
+.footer_social {
+  width: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003444}}
+  .footer_social_item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 4px;
+    width: 32px;
+    height: 32px;
+    background-color: #070716;
+    border-radius: 100%;
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003454}}
+    .footer_social_item span {
+      color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003457}}
+.footer_links {
+  width: 390px;
+  margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003460}}
+  .footer_links_main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003464}}
+    .footer_links_main a {
+      color: #070716;
+      font-size: 15px;
+      font-weight: 300;
+      text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003469}}
+  .footer_links_sub {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003473}}
+    .footer_links_sub a {
+      color: #999999;
+      font-size: 11px;
+      font-weight: 300;
+      text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003478}}
+  .footer_links_lang {
+    display: block;
+    margin: 0 auto;
+    color: #1fbad6;
+    font-size: 11px;
+    font-weight: 400;
+    margin-top: 19px;
+    text-transform: uppercase;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003487}}
+.footer_mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 296px;
+  height: 27px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-left: auto;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003494}}
+  .footer_mobile img {
+    width: 100%;
+    height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_general\.sass}line{font-family:\00003497}}
+.xs-visible {
+  display: none; }
+
+@media (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\000033}}
+  .menu_item {
+    padding-right: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\000035}}
+  .menu_link {
+    font-size: 13px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\000038}}
+  .promo_header {
+    font-size: 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\0000311}}
+  .cause_block {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\0000313}}
+  .cause_text {
+    width: 300px; } }
+@media (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\0000317}}
+  .menu_item {
+    padding-right: 8px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\0000319}}
+  .menu_link {
+    font-size: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\0000323}}
+  .subheader_logo img {
+    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\0000325}}
+  .subheader_official {
+    font-size: 11px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\0000327}}
+  .subheader_phone {
+    font-size: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\0000329}}
+  .subheader_btn {
+    margin-top: 21px;
+    height: 40px;
+    width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\0000334}}
+  .promo_header {
+    font-size: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\0000336}}
+  .promo_subheader {
+    font-size: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\0000338}}
+  .cause {
+    padding: 71px 0 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\0000340}}
+    .cause_block {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\0000343}}
+    .cause_four {
+      margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\0000345}}
+    .cause_text {
+      width: 300px;
+      margin-top: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\0000348}}
+  .car {
+    max-height: 700px;
+    padding: 59px 0 30px;
+    background-size: 100vw 69%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\0000352}}
+    .car_three {
+      width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\0000354}}
+  .world {
+    min-height: 650px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\0000356}}
+  .label_four {
+    z-index: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\0000358}}
+  .subtitle_text_two {
+    z-index: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\0000361}}
+  .footer_wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\0000363}}
+  .footer_wrapper > div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\0000368}}
+    .footer_wrapper > div:nth-child(1) {
+      width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\0000370}}
+    .footer_wrapper > div:_nth-child(3) {
+      width: 100%;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\0000373}}
+  .footer_mobile {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin: 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\0000376}}
+  .require {
+    padding: 30px 0 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\0000378}}
+  .mobile {
+    padding: 35px 0 70px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\0000380}}
+  .label_four {
+    z-index: 1; } }
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\0000394}}
+  .menu {
+    position: fixed;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    padding: 20px 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    -webkit-transition: 0.6s all;
+    transition: 0.6s all; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003106}}
+    .menu_active {
+      left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003109}}
+    .menu_item {
+      padding-right: 0;
+      border: none;
+      margin: 10px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003113}}
+    .menu_link {
+      font-size: 20px;
+      text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003116}}
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    width: 26px;
+    height: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003124}}
+    .hamburger span {
+      display: block;
+      height: 2px;
+      width: 100%;
+      background-color: #fff;
+      margin-bottom: 2px;
+      -webkit-transition: 0.5s all;
+      transition: 0.5s all; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003132}}
+    .hamburger_active span {
+      margin-bottom: -2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003134}}
+      .hamburger_active span:nth-child(1) {
+        -webkit-transform: translateY(3px) rotate(-45deg);
+                transform: translateY(3px) rotate(-45deg); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003136}}
+      .hamburger_active span:nth-child(2) {
+        display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003138}}
+      .hamburger_active span:nth-child(3) {
+        -webkit-transform: translateY(3px) rotate(45deg);
+                transform: translateY(3px) rotate(45deg); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003140}}
+  .xs-hidden {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003142}}
+  .xs-visible {
+    display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003145}}
+  .subheader_phone {
+    display: block;
+    margin-top: 10px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003153}}
+  .subheader_btn {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003160}}
+  .promo_header {
+    line-height: 45px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003162}}
+  .world {
+    min-height: 455px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003165}}
+  .footer_divider {
+    width: 106px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003167}}
+  .car {
+    max-height: 624px;
+    padding: 59px 0 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003170}}
+  .require {
+    padding: 62px 0 30px; } }
+@media (max-width: 575px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003173}}
+  nav {
+    height: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003175}}
+  .subheader {
+    height: 60px;
+    top: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003178}}
+    .subheader_official {
+      display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003180}}
+    .subheader_logo {
+      margin-top: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003182}}
+    .subheader_phone {
+      font-size: 12px;
+      font-weight: 400;
+      text-transform: uppercase;
+      margin-top: 11px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003187}}
+    .subheader_btn {
+      width: 110px;
+      height: 22px;
+      font-size: 10px;
+      margin-top: 6px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003192}}
+  .promo {
+    min-height: 400px;
+    padding: 93px 0 35px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003195}}
+    .promo_descr {
+      display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003197}}
+    .promo_header {
+      font-size: 30px;
+      padding: 0 24px;
+      line-height: 35px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003201}}
+    .promo_subheader {
+      font-size: 20px;
+      margin-top: 33px;
+      padding: 0 10px;
+      line-height: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003206}}
+    .promo_btn {
+      width: 210px;
+      height: 50px;
+      margin-top: 72px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003210}}
+  .menu {
+    width: 85%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003212}}
+    .menu_item {
+      width: 100%;
+      text-align: center;
+      padding: 5px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003216}}
+    .menu_link {
+      display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003218}}
+  .cause {
+    padding: 22px 0 36px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003220}}
+    .cause_block {
+      margin-top: 26px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003222}}
+    .cause_four {
+      width: 100px;
+      height: 100px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003225}}
+    .cause_text {
+      width: 100%;
+      margin-top: 27px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003228}}
+    .cause_one {
+      font-size: 16px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003232}}
+  .eight {
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 16px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003237}}
+  .world_link {
+    font-size: 12px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003240}}
+  .mobile_item {
+    width: 264px;
+    height: 264px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003243}}
+    .mobile_item_subtitle {
+      font-size: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003248}}
+  .footer_links_main a {
+    font-size: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/second\/src\/sass\/_media\.sass}line{font-family:\00003251}}
+  .footer_links_sub a {
+    font-size: 9px; } }
+
+/*# sourceMappingURL=style.css.map */
